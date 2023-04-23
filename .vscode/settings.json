@@ -1,0 +1,5 @@
+{
+  "python.autoComplete.extraPaths": ["./Python"],
+  "python.analysis.extraPaths": ["./Python"],
+  "python.analysis.typeCheckingMode": "basic"
+}
