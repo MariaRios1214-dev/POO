@@ -3,14 +3,11 @@ package Java;
 class Main {
   public static void main(String[] args) {
     System.out.println("Hola Mundo");
-    Car car = new Car();
-    car.license = "AMQ123";
-    car.driver = "Andres Herrera";
+    Car car = new Car("AMQ123", new Account("Andres Herrera", "Asf2122"));
     car.passengers = 4;
     car.printDataCard();
-    Car car2 = new Car();
-    car2.driver = "Dana";
-    car2.license = "JKL345";
+
+    Car car2 = new Car("JKL345", new Account("Dana", "sadasd353"));
     car2.passengers = 2;
     car2.printDataCard();;
   }
