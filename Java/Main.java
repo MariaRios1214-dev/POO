@@ -9,6 +9,9 @@ class Main {
 
     Car car2 = new Car("JKL345", new Account("Dana", "sadasd353"));
     car2.passengers = 2;
-    car2.printDataCard();;
+    car2.printDataCard();
+
+    Card card = new Card(2356, 452, "7/8/23", 545454);
+    card.printDataPayment();
   }
 }
