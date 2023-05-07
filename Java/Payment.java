@@ -7,6 +7,6 @@ package Java;
   }
 
   void printDataPayment(){
-    System.out.println("paymetMethodos: " + id );
+    System.out.println("$$ paymetMethodos: " + id );
   }
 }
